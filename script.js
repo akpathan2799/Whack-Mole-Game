@@ -117,6 +117,7 @@ function pauseFunction() {
         randomMole();
         startNewGame.setAttribute('disabled', '');
         startNewGame.classList.add('disabled-cursor');
+        timerInterval();
         callingRandomMoleInterval();
     }
 }
