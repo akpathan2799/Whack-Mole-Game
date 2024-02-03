@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whole Mack Game</title>
+    <link
+      rel="shortcut icon"
+      href="./Assets/whack-a-mole.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <div class="gaming-controls">
+          <h3 class="game-heading">Whack A Mole Game</h3>
+
+          <div class="start-pause-button">
+            <button class="game-start-pause-button" id="start-button">
+              New Game
+            </button>
+            <button class="game-start-pause-button" id="pause-button">
+              Pause
+            </button>
+          </div>
+
+          <div class="score-timer">
+            <h4 class="score-time-left-banner">
+              Score : <span id="currentScore"></span>
+            </h4>
+            <h4 class="score-time-left-banner">
+              Time Left : <span id="curentTime"></span> Sec
+            </h4>
+          </div>
+        </div>
+        <div class="game-board">
+          <div class="holes" id="0"></div>
+          <div class="holes" id="1"></div>
+          <div class="holes" id="2"></div>
+          <div class="holes" id="3"></div>
+          <div class="holes" id="4"></div>
+          <div class="holes" id="5"></div>
+          <div class="holes" id="6"></div>
+          <div class="holes" id="7"></div>
+          <div class="holes" id="8"></div>
+        </div>
+      </div>
+
+      <div class="pop-up-message">
+        <h1 class="game-over-heading">Game Over !!</h1>
+        <h3 class="score-pop-up">
+          Your Score : <span id="score-message"></span>
+        </h3>
+
+        <button class="back-to-home">Back To Home</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
