@@ -32,7 +32,7 @@ function startNewGameFunctionality() {
     }
 
     
-    gamePlayMusic.volume=0.3;
+    gamePlayMusic.volume=0.2;
     gamePlayMusic.play();
     score.innerText = '0';
     timer.innerText = '60'

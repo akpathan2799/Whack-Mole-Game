@@ -148,7 +148,7 @@
 
   .score-pop-up{
     font-size: 3rem;
-    
+    margin: 10px 0 10px 0;
   }
 
   .back-to-home{
@@ -216,6 +216,20 @@
         grid-template-columns: repeat(3,1fr);
     }
     
+    
+  .game-over-heading{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 3rem;
+    font-style: normal;
+    margin: 1.2rem;
+  }
+
+  .score-pop-up{
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+  }
 
     
   }
